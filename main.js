@@ -1,7 +1,9 @@
 //PART 1
+//alertForm variables/querySelectors
 let alertForm = document.querySelector("#alertForm");
 let alertInput = document.querySelector("#alertInput");
 
+//alertForm eventListener
 alertForm.addEventListener("submit",function(event){
     event.preventDefault();
     alert(alertInput.value);
@@ -14,8 +16,9 @@ let sandwichForm = document.querySelector("#sandwichForm");
 let ingredients = document.querySelectorAll("#sandwichForm .ingredients");
 //for of loop just to check we are querySelectorAll(ing) correctly
 for(let item of ingredients){
-    console.log(item.id)
+    console.log(item.id);
 }
+
 //sandwichForm eventListener
 sandwichForm.addEventListener("submit", function(event){
     event.preventDefault();
@@ -72,9 +75,9 @@ accountForm.addEventListener("submit", function(event){
     if(password.value !== confirmPassword.value){
         alert("PASSWORDS DO NOT MATCH! PLEASE TRY AGAIN!");
     }else if(username.value.length < 3){
-        alert("USERNAME MUST BE AT LEAST 3 CHARACTERS LONG! PLEASE RE-ENTER A VALID USERNAME!")
+        alert("USERNAME MUST BE AT LEAST THREE CHARACTERS LONG! PLEASE RE-ENTER A VALID USERNAME!");
     }else if(password.value.length < 4){
-        alert("PASSWORD MUST BE AT LEAST FOUR CHARACTERS LONG! PLEASE RE-ENTER A VALID PASSWORD!")
+        alert("PASSWORD MUST BE AT LEAST FOUR CHARACTERS LONG! PLEASE RE-ENTER A VALID PASSWORD!");
     }else{
         alert(`An account has been created for username: ${username.value}, email address: ${email.value}`);
     }

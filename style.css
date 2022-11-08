@@ -1,11 +1,9 @@
 body {
-    background-color: rgb(227, 240, 240);
+    background-color: rgb(212, 244, 244);
 }
 
 h1 {
-    font-family: fantasy;
-    font-style: bold;
-    
+    font-family: fantasy;   
 }
 
 input {
@@ -14,10 +12,8 @@ input {
     line-height: 16px; 
     padding: 8px; 
     border-radius: 10px; 
-    
     box-shadow: rgb(0, 0, 0) 5px 5px 20px 5px; 
-    border: 2px solid rgb(28, 110, 164); 
-    display: inline-block;
+    border: 4px solid rgb(28, 110, 164); 
 }
 
 label {
