@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret Formula</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    
+    <form id="alertForm">
+        <h1>The Alerter</h1>
+        <input type="text" id="alertInput" autocomplete="off" placeholder="Enter some text"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    <br>
+
+    <form id="sandwichForm">
+        <h1>Sandwich Builder</h1>
+        <div>
+            <input class="ingredients" id="turkey" type="checkbox" />
+            <label>Turkey</label>
+        </div>
+        
+        <div>
+            <input class="ingredients" id="ham" type="checkbox" />
+            <label>Ham</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="salami" type="checkbox" />
+            <label>Salami</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="pastrami" type="checkbox" />
+            <label>Pastrami</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="mayo" type="checkbox" />
+            <label>Mayo</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="lettuce" type="checkbox" />
+            <label>Lettuce</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="peppers" type="checkbox" />
+            <label>Peppers</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="tomatoes" type="checkbox" />
+            <label>Tomatoes</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="spinach" type="checkbox" />
+            <label>Spinach</label>
+        </div>
+
+        <div>
+            <input class="ingredients" id="oil" type="checkbox" />
+            <label>Oil</label>
+        </div>
+        <br> 
+        <input type ="submit">
+    </form>
+    <br>
+    
+    <form id="haircutForm">
+        <h1>Haircut Appointment Scheduler</h1>
+        <div>
+            <label>Date:</label>
+            <input id="date" type="date"/>
+        </div>
+        <br>
+        
+        <div>
+            <label>Stylist:</label>
+            <input id="stylist" type="text" placeholder="Stylist Preferred" autocomplete="off"/>
+        </div>
+        
+        <p>Do you currently have (please select one of the following two options):</p>
+        <div>
+            <label>Long Hair</label>
+            <input id="longHair" type="radio" name="hairLength"/>
+        <div>
+            <label>Short Hair</label>
+            <input id="shortHair" type="radio" name="hairLength"/>
+        </div>
+        </div>
+        <br>
+        <input type="submit"/>
+    </form>
+    <br>
+
+    <form id="accountForm">
+        <h1>Create Account</h1>
+        <div>
+            <label>Create Username:</label>
+            <input id="username" type="text" placeholder="Create a username" autocomplete="off"/>
+        </div>
+        <br>
+        <div>
+            <label>Your Email Address:</label>
+            <input id="email" type="email" placeholder="Your email address" autocomplete="off"/>
+        </div>
+        <br>
+        <div>
+            <label>Create Password:</label>
+            <input id="password" type="password" placeholder="Create a password" autocomplete="off"/>
+        </div>
+        <br>
+        <div>
+            <label>Confirm Password:</label>
+            <input id="confirmPassword" type="password" placeholder="Confirm password" autocomplete="off"/>
+        </div>
+        <br>
+        <input type="submit"/>
+    </form>
+
+    <script src="main.js"></script> 
+</body>
+</html>
